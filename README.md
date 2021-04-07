@@ -5,9 +5,9 @@ reports from opening folder activity in %appdata%\Folder-Vault\reports\Log-(time
 -------------------
 Setup:
 You need to change the password first. Edit Security.bat > Change PASSWORD_GOES_HERE in line 3 with your own password.
-\nThen after do that you need to run Security.bat and it will crate Private-Folder(the vault)
+then after do that you need to run Security.bat and it will crate Private-Folder(the vault)
 
 -------------------
 Log-(time opening) filled with "Someone login in %time%/%date%.
-\nTo open the folder you need to run Security.bat and insert your password
-\nRecomended using bat to exe converter to hide the password
+To open the folder you need to run Security.bat and insert your password
+(Recomended using bat to exe converter to hide the password)
