@@ -1,6 +1,6 @@
 @echo off
 mode 45,25
-set pass=aa
+set pass=PASSWORD_GOES_HERE
 if exist "LockedPrivateFolder2475927251584827464322021911910411824214043070532338" goto unlock
 if not exist Private-Folder goto MDPrivateFolder
 :confirm
