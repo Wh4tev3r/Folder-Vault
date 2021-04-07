@@ -75,15 +75,17 @@ echo Password Invalid
 goto endout
 :MDPrivateFolder
 md Private-Folder
+cd %appdata%
+md Folder-Vault
+cd Folder-Vault
 md reports
-attrib +h "reports"
 cd reports
 md This-Place-Filled-With-Login-Reports
-echo Private-Folder created successfully
+echo Setup finished
 goto endout
 :endin
 timeout /t 1 >nul
-cd reports
+cd %appdata%\Folder-Vault\reports
 echo Someone login in %time%/%date% >Log-%time%
 exit
 :endout
